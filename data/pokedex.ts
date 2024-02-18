@@ -19730,4 +19730,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	koalyptus: {
+		num: -4002,
+		name: "Koalyptus",
+		types: ["Grass", "Fighting"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 90, atk: 118, def: 90, spa: 77, spd: 95, spe: 60},
+		abilities: {0: "Overgrow", 1: "Iron Fist", H: "Poison Heal"},
+		heightm: 1.5,
+		weightkg: 136,
+		color: "Green",
+		prevo: "Eucoala",
+		evoLevel: 32,
+		eggGroups: ["Monster", "Grass"],
+	},
 };
